@@ -11,10 +11,11 @@
 .nav-link,.navbar-brand{
     color: #fff !important;
 }
-nav ul li a:hover{
-    background-color:plum;
-    color: black !important;
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
     border-radius: 5px;
+    border-top: 2px solid #fff;
+
 } 
 .navbar-brand{
     width: 48px;

@@ -28,3 +28,13 @@ h1, h2, h3, h4, h6 {
   height:3px;
   background-color:purple;
   }
+
+  @media screen  and (max-width:465px){
+    .program-image{
+      width: 250px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
