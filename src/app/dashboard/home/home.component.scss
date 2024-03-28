@@ -1,0 +1,252 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family:var(--font-family-regular);
+    font-weight: 300;
+  }
+  
+.codeGirl{
+    width:500px;
+    height: 500px;
+}
+.about-btn{
+    background-color: purple;
+    color: #fff;
+    border-radius: 15px;
+    outline: none;
+}
+.about-btn:hover{
+    background-color: plum;
+    color: #000;
+}
+.page-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-us{
+    font-weight: bold;
+    color: #fff;
+    background: purple;
+    border-radius: 15px;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+
+}
+.about-btn:focus{
+    border: none;
+    outline:none !important;
+}
+._content{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.service-image{
+    width:200px;
+    height: 200px;
+}
+.copyright{
+    border-top: 1px solid #fff;
+}
+.about-us-title{
+    font-weight: bold;
+}
+.footer_1{
+    font-weight: bold;
+}
+
+.footer_2{
+    font-weight: bold;
+}
+.social_icon .bi{
+    color: #fff;
+}
+
+@media screen  and (max-width:768px){
+    .codeGirl{
+        width:300px;
+        height:300px;
+        margin: auto;
+        display: block;
+    }
+    #ho_color h3{
+        margin: auto;
+        display: block;
+    }
+    .services-title{
+        text-align: center;
+         display: block;
+     }
+    .service-image{
+        margin: auto;
+        display: block;
+    }
+    .about-btn{
+        margin: auto;
+        display: block;
+       
+    }
+    .follow h6{
+        text-align: center;
+        display: block;
+        
+    }
+    .footer_2{
+        text-align: center;
+        display: block;
+    }
+    .location_icon{
+        text-align: center;
+        display: block;
+    }
+    .social_icon{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen  and (max-width:600px){
+    .codeGirl{
+        width:200px;
+        height: 200px;
+        margin: auto;
+        display: block;
+    }
+    .about-btn{
+        margin: auto;
+        display: block;
+      
+    }
+    .services{
+        margin: auto;
+        display: block;
+    }
+    .service-image{
+        margin: auto;
+        display: block;
+    }
+    .about-us-title{
+        text-align: center;
+        display: block;
+    }
+    .footer_1{
+        text-align: center;
+        display: block;
+    }
+    .footer_2{
+        text-align: center;
+        display: block;
+    }
+    .social_icon{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ho_color h3{
+        margin: auto;
+        display: block;
+    }
+    .services-title{
+        text-align: center;
+         display: block;
+     }
+     .follow h6{
+        text-align: center;
+        display: block;
+    }
+    .location_icon{
+        text-align: center;
+        display: block;
+    }
+
+}
+@media screen  and (max-width:300px){
+    .footer_1{
+        text-align: center;
+        display: block;
+    }
+    .footer_2{
+        text-align: center;
+        display: block;
+    }
+
+
+    .about-us-title{
+        text-align: center;
+        display: block;
+    }
+
+    .service-image{
+        margin: auto;
+        display: block;
+    }
+
+    #ho_color{
+        margin: auto;
+        display: block;
+    }
+    .services-title{
+       text-align: center;
+       display: block;
+    }
+    .follow h6{
+        text-align: center;
+        display: block;
+        
+    }
+    .social_icon{
+        justify-content: center;
+        align-items: center;
+    }
+    .location_icon{
+        text-align: center;
+        display: block;
+    }
+
+}
+.section {
+    padding: 70px 0;
+    position: relative;
+    background-color: #FFFFFF;
+  }
+
+.section-dark{
+    background-color: #0b1011;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.landing-section {
+    padding: 100px 0;
+    z-index: 1;
+  }
+  
+  .section-buttons {
+    z-index: 1;
+  }
+  
+  .landing-section .btn-simple {
+    padding: 0;
+  }
+  
+  .landing-section .column {
+    padding: 0 75px 0 25px;
+  }
+  
+    .btn-round {
+    border-radius: 30px;
+    }
+    .carousel-control-prev-icon{
+        background-color: purple;
+        border-radius: 50%;
+    }
+    .carousel-control-next-icon{
+        background-color: purple;
+        border-radius: 50%;
+    }
+    @media screen and (min-width: 992px) {
+    .carousel {
+        max-width: 40%;
+        margin: 0 auto;
+    }
+    }

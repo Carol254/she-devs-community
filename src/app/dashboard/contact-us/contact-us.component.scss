@@ -1,0 +1,26 @@
+.section{
+    font-family: var(--font-family-regular);
+}
+.about-btn{
+    background-color: purple;
+    color: #fff;
+    border-radius: 15px;
+}
+.about-btn:hover{
+    background-color: plum;
+    color: #000;
+}
+
+.landing-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen  and (max-width:768px){
+    .about-btn{
+        margin: auto;
+        display: block;
+    }
+}
